@@ -23,7 +23,7 @@ import PredictionResult from '../components/PredictionResult';
 import { uploadImageAndPredict, mocks } from '../services/api';
 
 // Set to true to use mock API during development without backend
-const USE_MOCKS = true;
+const USE_MOCKS = false;
 
 function ClassifyView() {
   // State management

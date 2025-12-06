@@ -26,7 +26,7 @@ import GenAIChat from '../components/GenAIChat';
 import { sendChatMessage, summarizeText, mocks } from '../services/api';
 
 // Set to true to use mock API during development without backend
-const USE_MOCKS = true;
+const USE_MOCKS = false;
 
 function GenAIView() {
   // Chat state

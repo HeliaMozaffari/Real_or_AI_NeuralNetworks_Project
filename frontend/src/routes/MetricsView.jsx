@@ -24,7 +24,7 @@ import ConfusionMatrix from '../components/ConfusionMatrix';
 import { getMetrics, mocks } from '../services/api';
 
 // Set to true to use mock API during development without backend
-const USE_MOCKS = true;
+const USE_MOCKS = false;
 
 function MetricsView() {
   // State management
